@@ -1,0 +1,31 @@
+{
+    "name": "coopbelvedere/laravel-localized-url",
+    "description": "Simple locale prefixed routes for Laravel",
+    "require": {
+        "php": ">=7.0",
+        "ext-fileinfo": "*",
+        "illuminate/support": "^5.5",
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Bastien",
+            "email": "mbastien@coopbelvedere.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Belvedere\\LocalizedUrl\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Belvedere\\LocalizedUrl\\LocalizedUrlServiceProvider"
+            ],
+            "aliases": {
+                "LocalizedUrl": "Belvedere\\LocalizedUrl\\LocalizedUrlFacade"
+            }
+        }
+    }
+}
