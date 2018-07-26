@@ -12,7 +12,7 @@ as no more features will be added. For a more complete solution, please use
 ### Configuration
 
 ```
-php artisan vendor:publish --provider="Belvedere\LocalizedUrl\LocalizedUrlServiceProvider";
+php artisan vendor:publish --provider="Belvedere\LocalizedUrl\LocalizedUrlServiceProvider"
 ```
 
 In the `app/config/localized-url.php` file:
