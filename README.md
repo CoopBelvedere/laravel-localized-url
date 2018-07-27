@@ -26,7 +26,7 @@ like `app.locales` if you already have this set in your application.
 
 You can add the locale prefix to your `app/Providers/RouteServiceProvider.php`:
 
-```
+```php
 use Belvedere\LocalizedUrl\LocalizedUrlFacade as LocalizedUrl;
 
 class RouteServiceProvider extends ServiceProvider
